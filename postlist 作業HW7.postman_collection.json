@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "ea5d2b4a-24a2-465f-82f2-a4fd9db3edff",
+		"name": "postlist 作業HW7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "上傳圖片",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTBlMzRkNjI1MjM4ODljNmZkZWM4MyIsImlhdCI6MTY1MzY2MjU0MSwiZXhwIjoxNjU2MjU0NTQxfQ.jC0JJQeqNFWHP0-pgd9XdAI01lqNZljFGk8SN9muE-E",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": "/C:/Users/Owner/Desktop/放置/iconfinder_cow_4591898.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://serene-chamber-76614.herokuapp.com/upload",
+					"protocol": "https",
+					"host": [
+						"serene-chamber-76614",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
